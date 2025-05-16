@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Cameroon Investigations Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background: linear-gradient(90deg, #1e293b, #0f172a);
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background-color: #1e293b;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(56,189,248,0.3);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content h2 {
+      font-size: 1.4rem;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+    .card-content p {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+    .card-content button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #38bdf8;
+      border: none;
+      color: #0f172a;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .card-content button:hover {
+      background-color: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nos Services</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?detective,office" alt="Enquêtes privées">
+      <div class="card-content">
+        <h2>Enquêtes privées</h2>
+        <p>Enquêtes discrètes et professionnelles pour affaires conjugales, fraudes, vols internes ou litiges privés. Rapports détaillés et preuves à l'appui.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?law,legal" alt="Assistance juridique">
+      <div class="card-content">
+        <h2>Assistance juridique</h2>
+        <p>Accompagnement légal et conseils d’experts. Rédaction de documents, défense en justice, gestion de contentieux divers.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?background-check,id" alt="Vérification d’antécédents">
+      <div class="card-content">
+        <h2>Vérification d’antécédents</h2>
+        <p>Contrôle de casier judiciaire, diplômes, parcours professionnel. Idéal pour employeurs, agences et particuliers.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?surveillance,street" alt="Filature & Surveillance">
+      <div class="card-content">
+        <h2>Filature & Surveillance</h2>
+        <p>Surveillance ciblée dans le respect des lois. Détection d’infidélité, suivi de personnes, prévention de délits ou abus.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?security,guard" alt="Sécurité privée">
+      <div class="card-content">
+        <h2>Sécurité privée</h2>
+        <p>Agents de sécurité qualifiés pour événements, bâtiments, VIP. Discrétion, efficacité et présence dissuasive assurées.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/600x400/?strategy,consulting" alt="Conseil stratégique">
+      <div class="card-content">
+        <h2>Conseil stratégique</h2>
+        <p>Analyse de risque, gestion de crise, intelligence économique. Pour dirigeants, entreprises, institutions et ONG.</p>
+        <button>Commander</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
