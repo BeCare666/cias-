@@ -26,6 +26,6 @@
     const encodedMessage = encodeURIComponent(formattedMessage);
 
     // Redirection vers WhatsApp Web
-    window.open(`https://wa.me/2290151455930?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/237675131876?text=${encodedMessage}`, '_blank');
   });
 
